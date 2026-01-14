@@ -9,7 +9,7 @@ An **API** acts as a bridge between two software programs.  In Fintech, APIs all
 ### KYC (Know Your Customer)
 **KYC** is a mandatory process where businesses verify the identity of their clients.
 * **Purpose:** To prevent money laundering and fraud.
-* **Key Step:** Validating government0issed IDs.
+* **Key Step:** Validating government-issed IDs.
 
 ### PCI DSS (Payment Card Industry Data Security Standard)
 A set of security standards designed to ensure that **all** companies that accept, process, store, or transmit credit card information maintain a secure environment.
