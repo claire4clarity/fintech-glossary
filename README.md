@@ -1,9 +1,9 @@
 # Fintech Technical Glossary
 Welcome to my technical glossary.  This project is a living document where I translate complex financial concepts into chear, developer-friendly documentation.
 
-##Core Concepts
+## Core Concepts
 
-###API (Application Programming Interface)
+### API (Application Programming Interface)
 An **API** acts as a bridge between two software programs.  In Fintech, APIs allow your bank to talk to apps like *Venmo* or *Stripe* securely.
 
 ### KYC (Know Your Customer)
