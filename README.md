@@ -46,10 +46,20 @@ Most Fintechs host their data on remote servers (the "Cloud") rather than physic
 
 ## System Visualizations
 
+graph LR
+    A[Customer App] -->|1. Request Payment| B(Payment Gateway)
+    B -->|2. Validate Credentials| C{Security Shield}
+    C -->|3. Approved| D[(Bank Database)]
+    C -->|3. Denied| E[Error Message]
+    D -->|4. Success Token| B
+    B -->|5. Confirmation| A
 
-A[Customer App] -->|1. Request Payment| B(Payment Gateway)
-B -->|2. Validate Credentials| C{Security Shield}
-C -->|3. Approved| D[(Bank Database)]
-C -->|3. Denied| E[Error Message]
-D -->|4. Success Token| B
-B -->|5. Confirmation| A
+graph TD
+    User((User)) -->|Plaintext Data| SSL[SSL/TLS Encryption]
+    SSL -->|Encrypted Tunnel| Server[Fintech Server]
+    Server -->|Hashed Password| DB[(Secure Storage)]
+    
+    subgraph Internal Network
+    Server
+    DB
+    end
