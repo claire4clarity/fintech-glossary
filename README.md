@@ -1,11 +1,10 @@
-##Table of Contents
+# Fintech Technical Glossary
+Welcome to my technical glossary.  This project is a living document where I translate complex financial concepts into chear, developer-friendly documentation.
+
+## Table of Contents
 * [Core Concepts](#core-concepts)
 * [Regulatory Standards](#regulatory-standards)
 * [Technology Stack](#technology-stack)
-
-
-# Fintech Technical Glossary
-Welcome to my technical glossary.  This project is a living document where I translate complex financial concepts into chear, developer-friendly documentation.
 
 ## Core Concepts
 
