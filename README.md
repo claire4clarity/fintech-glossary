@@ -44,6 +44,15 @@ Most Fintechs host their data on remote servers (the "Cloud") rather than physic
 * **At Rest:** Data is protected while it is stored on a disk.
 * **In Transit:** Data is protected while it is moving between a user's phone and the bank's server. 
 
+## System Flow
+ 
+```mermaid
+graph LR
+    A[Customer] -->|Sends Money| B(Fintech App)
+    B -->|Verifies| C{Security}
+    C -->|Success| D[(Bank Database)]
+```
+
 ## System Visualizations
 
 ```mermaid
@@ -54,14 +63,4 @@ graph LR
     C -->|3. Denied| E[Error Message]
     D -->|4. Success Token| B
     B -->|5. Confirmation| A
-
-```mermaid
-graph TD
-    User((User)) -->|Plaintext Data| SSL[SSL/TLS Encryption]
-    SSL -->|Encrypted Tunnel| Server[Fintech Server]
-    Server -->|Hashed Password| DB[(Secure Storage)]
-    
-    subgraph Internal Network
-    Server
-    DB
-    end
+```
