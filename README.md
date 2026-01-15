@@ -46,6 +46,7 @@ Most Fintechs host their data on remote servers (the "Cloud") rather than physic
 
 ## System Visualizations
 
+```mermaid
 graph LR
     A[Customer App] -->|1. Request Payment| B(Payment Gateway)
     B -->|2. Validate Credentials| C{Security Shield}
@@ -54,6 +55,7 @@ graph LR
     D -->|4. Success Token| B
     B -->|5. Confirmation| A
 
+```mermaid
 graph TD
     User((User)) -->|Plaintext Data| SSL[SSL/TLS Encryption]
     SSL -->|Encrypted Tunnel| Server[Fintech Server]
