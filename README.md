@@ -43,3 +43,13 @@ Most Fintechs host their data on remote servers (the "Cloud") rather than physic
 #Encryption at Rest vs. In Transit
 * **At Rest:** Data is protected while it is stored on a disk.
 * **In Transit:** Data is protected while it is moving between a user's phone and the bank's server. 
+
+## System Visualizations
+
+
+A[Customer App] -->|1. Request Payment| B(Payment Gateway)
+B -->|2. Validate Credentials| C{Security Shield}
+C -->|3. Approved| D[(Bank Database)]
+C -->|3. Denied| E[Error Message]
+D -->|4. Success Token| B
+B -->|5. Confirmation| A
