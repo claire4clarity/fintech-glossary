@@ -25,6 +25,16 @@ A distributed, decentralized ledger technology.   In Fintech, it is used to reco
 ### SaaS (Software as a Service)
 A software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted.  Most modern Fintech tools (like *QuickBooks Online*) are SaaS.
 
+### SME digitisation
+SME digitisation is the process of integrating digital technologies into all areas of a Small or Medium-sized Enterprise.
+
+### Google's AP2 (Agent Payments Protocol)
+Google's AP2 (Agent Payments Protocol) is an open, industry-standard framework for securely enabling AI agents to make purchases on behalf of users, acting as a trusted layer for agent-led commerce by establishing verifiable intent through cryptographic mandates and creating an audit trail for accountability.
+
+### Middle East and North Africa (MENA)
+MENA stands for the Middle East and North Africa, a broad geographic and cultural region encompassing countries from Morocco to Iran, known for its rich history, diverse ethnicities, significant energy reserves (oil/gas), and complex geopolitics, often used by academic, economic, and governmental bodies to group these nations
+
+
 ## Regulatory Standards
 
 ### AML (Anti-Money Laundering)
