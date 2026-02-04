@@ -14,3 +14,4 @@ A financial institution that maintains a merchant's bank account. They are the "
 ### Application Programming Interface (API)
 
 A set of protocols that allows two software applications to communicate with each other.  In the FinTech context, they allow an Acquiring Bank to securely ask an Issuing Bank whether the customer/client has sufficient funds to send the payment.
+### Acquiring Bank
